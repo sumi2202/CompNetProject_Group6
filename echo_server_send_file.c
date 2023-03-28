@@ -93,9 +93,9 @@ char *filename = "send.txt";
 	}
 	
 	send_file (fp, sd);
-	printf("data written in file sucessfully \n");
+	printf("Success: The file data was succesfully sent.\n");
 	
-	printf("closing the connection \n");
+	printf("Connection Closed. \n");
 	
 	close(sd);
 	
